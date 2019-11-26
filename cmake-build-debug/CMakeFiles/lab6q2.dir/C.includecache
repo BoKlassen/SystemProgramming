@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Brand/Documents/GitHub/SystemProgramming/lab6/lab6q2.c
+stdio.h
+-
+stddef.h
+-
+unistd.h
+-
+
