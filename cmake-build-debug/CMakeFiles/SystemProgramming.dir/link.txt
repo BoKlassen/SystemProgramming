@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libSystemProgramming.a  CMakeFiles/SystemProgramming.dir/library.c.o
-/usr/bin/ranlib.exe libSystemProgramming.a
