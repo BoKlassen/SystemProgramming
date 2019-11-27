@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/writer.dir/lab2/writer.c.obj"
-  "libwriter.dll.a"
-  "writer.exe"
-  "writer.exe.manifest"
+  "CMakeFiles/writer.dir/lab2/writer.c.o"
   "writer.pdb"
+  "writer.exe"
+  "libwriter.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

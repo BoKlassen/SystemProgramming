@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SystemProgramming.dir/library.c.obj"
-  "libSystemProgramming.a"
+  "CMakeFiles/SystemProgramming.dir/library.c.o"
   "libSystemProgramming.pdb"
+  "libSystemProgramming.a"
 )
 
 # Per-language clean rules from dependency scanning.

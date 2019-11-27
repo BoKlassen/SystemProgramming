@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/assignment4/server.c
+fcntl.h
+-
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/stat.h
+-
+

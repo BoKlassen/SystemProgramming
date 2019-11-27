@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Brand/Documents/GitHub/SystemProgramming/library.c" "C:/Users/Brand/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles/SystemProgramming.dir/library.c.obj"
+  "/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/library.c" "/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles/SystemProgramming.dir/library.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
