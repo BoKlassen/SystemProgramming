@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/lab6q2.dir/lab6/lab6q2.c.o  -o lab6q2.exe -Wl,--out-implib,liblab6q2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

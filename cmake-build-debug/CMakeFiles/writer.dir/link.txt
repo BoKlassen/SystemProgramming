@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/writer.dir/lab2/writer.c.o  -o writer.exe -Wl,--out-implib,libwriter.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/A4Q1client.dir/assignment4/client.c.o  -o A4Q1client.exe -Wl,--out-implib,libA4Q1client.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
