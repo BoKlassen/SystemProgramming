@@ -1,21 +1,36 @@
-#include <fcntl.h>
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+#include <sys/fcntl.h>
 #include <unistd.h>
-#include <stdlib.h>
-#include <sys/stat.h>
 
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[]) {
     int fd;
     char ch;
 
-    while((fd = open("../myserver", O_WRONLY)) == -1){
+    while ((fd = open("../myserver", O_WRONLY)) == -1) {
         fprintf(stderr, "trying to connect\n");
         sleep(1);
     }
 
-    printf("Connected: type in data to be sent\n");
+    printf("Connected:\n");
 
-    while((ch = getchar()) != -1) // -1 is CTRL-D
-        write(fd, &ch, 1);
-    close(fd);
+    while (true) {
+        fd = open("../myserver", O_WRONLY);
+
+        while ((ch = getchar()) != -1) {
+            write(fd, &ch, 1);
+            if (ch == '\n') break;
+        }
+
+        close(fd);
+
+        //set to read to receive
+        fd = open("../myserver", O_RDONLY);
+        while (read(fd, &ch, 1) == 1) {
+            fprintf(stderr, "%c", ch);
+        }
+
+        close(fd);
+    }
 }

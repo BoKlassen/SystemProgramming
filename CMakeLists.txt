@@ -15,3 +15,4 @@ add_executable(lab6q3 lab6/lab6q3.c)
 
 add_executable(A4Q1server assignment4/server.c)
 add_executable(A4Q1client assignment4/client.c)
+add_executable(a4q3 assignment4/a4q3.c)

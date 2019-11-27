@@ -52,5 +52,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/A4Q1server.dir/DependInfo.cmake"
   "CMakeFiles/lab2_filesize.dir/DependInfo.cmake"
   "CMakeFiles/writer.dir/DependInfo.cmake"
+  "CMakeFiles/a4q3.dir/DependInfo.cmake"
   "CMakeFiles/lab6q3.dir/DependInfo.cmake"
   )

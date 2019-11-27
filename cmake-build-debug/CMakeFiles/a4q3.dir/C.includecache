@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/assignment4/client.c
+/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/assignment4/a4q3.c
 stdio.h
 -
-string.h
+unistd.h
 -
-stdbool.h
+sys/stat.h
+-
+stdlib.h
 -
 sys/fcntl.h
 -
-unistd.h
+ctype.h
 -
 

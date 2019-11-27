@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/a4q3.dir/assignment4/a4q3.c.o  -o a4q3.exe -Wl,--out-implib,liba4q3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

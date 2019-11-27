@@ -108,7 +108,7 @@ clean: CMakeFiles/A4Q1client.dir/clean
 CMakeFiles/lab1.dir/all:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/depend
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target lab1"
 .PHONY : CMakeFiles/lab1.dir/all
 
 # Include target in all.
@@ -182,7 +182,7 @@ clean: CMakeFiles/SystemProgramming.dir/clean
 CMakeFiles/lab6q2.dir/all:
 	$(MAKE) -f CMakeFiles/lab6q2.dir/build.make CMakeFiles/lab6q2.dir/depend
 	$(MAKE) -f CMakeFiles/lab6q2.dir/build.make CMakeFiles/lab6q2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target lab6q2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target lab6q2"
 .PHONY : CMakeFiles/lab6q2.dir/all
 
 # Include target in all.
@@ -256,7 +256,7 @@ clean: CMakeFiles/A4Q1server.dir/clean
 CMakeFiles/lab2_filesize.dir/all:
 	$(MAKE) -f CMakeFiles/lab2_filesize.dir/build.make CMakeFiles/lab2_filesize.dir/depend
 	$(MAKE) -f CMakeFiles/lab2_filesize.dir/build.make CMakeFiles/lab2_filesize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target lab2_filesize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target lab2_filesize"
 .PHONY : CMakeFiles/lab2_filesize.dir/all
 
 # Include target in all.
@@ -293,7 +293,7 @@ clean: CMakeFiles/lab2_filesize.dir/clean
 CMakeFiles/writer.dir/all:
 	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/depend
 	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target writer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target writer"
 .PHONY : CMakeFiles/writer.dir/all
 
 # Include target in all.
@@ -324,13 +324,50 @@ clean: CMakeFiles/writer.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/a4q3.dir
+
+# All Build rule for target.
+CMakeFiles/a4q3.dir/all:
+	$(MAKE) -f CMakeFiles/a4q3.dir/build.make CMakeFiles/a4q3.dir/depend
+	$(MAKE) -f CMakeFiles/a4q3.dir/build.make CMakeFiles/a4q3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target a4q3"
+.PHONY : CMakeFiles/a4q3.dir/all
+
+# Include target in all.
+all: CMakeFiles/a4q3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/a4q3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/a4q3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/a4q3.dir/rule
+
+# Convenience name for target.
+a4q3: CMakeFiles/a4q3.dir/rule
+
+.PHONY : a4q3
+
+# clean rule for target.
+CMakeFiles/a4q3.dir/clean:
+	$(MAKE) -f CMakeFiles/a4q3.dir/build.make CMakeFiles/a4q3.dir/clean
+.PHONY : CMakeFiles/a4q3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/a4q3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/lab6q3.dir
 
 # All Build rule for target.
 CMakeFiles/lab6q3.dir/all:
 	$(MAKE) -f CMakeFiles/lab6q3.dir/build.make CMakeFiles/lab6q3.dir/depend
 	$(MAKE) -f CMakeFiles/lab6q3.dir/build.make CMakeFiles/lab6q3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target lab6q3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target lab6q3"
 .PHONY : CMakeFiles/lab6q3.dir/all
 
 # Include target in all.

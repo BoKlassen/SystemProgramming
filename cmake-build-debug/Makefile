@@ -202,6 +202,19 @@ writer/fast:
 .PHONY : writer/fast
 
 #=============================================================================
+# Target rules for targets named a4q3
+
+# Build rule for target.
+a4q3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 a4q3
+.PHONY : a4q3
+
+# fast build rule for target.
+a4q3/fast:
+	$(MAKE) -f CMakeFiles/a4q3.dir/build.make CMakeFiles/a4q3.dir/build
+.PHONY : a4q3/fast
+
+#=============================================================================
 # Target rules for targets named lab6q3
 
 # Build rule for target.
@@ -213,6 +226,33 @@ lab6q3: cmake_check_build_system
 lab6q3/fast:
 	$(MAKE) -f CMakeFiles/lab6q3.dir/build.make CMakeFiles/lab6q3.dir/build
 .PHONY : lab6q3/fast
+
+assignment4/a4q3.o: assignment4/a4q3.c.o
+
+.PHONY : assignment4/a4q3.o
+
+# target to build an object file
+assignment4/a4q3.c.o:
+	$(MAKE) -f CMakeFiles/a4q3.dir/build.make CMakeFiles/a4q3.dir/assignment4/a4q3.c.o
+.PHONY : assignment4/a4q3.c.o
+
+assignment4/a4q3.i: assignment4/a4q3.c.i
+
+.PHONY : assignment4/a4q3.i
+
+# target to preprocess a source file
+assignment4/a4q3.c.i:
+	$(MAKE) -f CMakeFiles/a4q3.dir/build.make CMakeFiles/a4q3.dir/assignment4/a4q3.c.i
+.PHONY : assignment4/a4q3.c.i
+
+assignment4/a4q3.s: assignment4/a4q3.c.s
+
+.PHONY : assignment4/a4q3.s
+
+# target to generate assembly for a file
+assignment4/a4q3.c.s:
+	$(MAKE) -f CMakeFiles/a4q3.dir/build.make CMakeFiles/a4q3.dir/assignment4/a4q3.c.s
+.PHONY : assignment4/a4q3.c.s
 
 assignment4/client.o: assignment4/client.c.o
 
@@ -445,7 +485,11 @@ help:
 	@echo "... A4Q1server"
 	@echo "... lab2_filesize"
 	@echo "... writer"
+	@echo "... a4q3"
 	@echo "... lab6q3"
+	@echo "... assignment4/a4q3.o"
+	@echo "... assignment4/a4q3.i"
+	@echo "... assignment4/a4q3.s"
 	@echo "... assignment4/client.o"
 	@echo "... assignment4/client.i"
 	@echo "... assignment4/client.s"
