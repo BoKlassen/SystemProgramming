@@ -27,6 +27,114 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rcvmessage">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/rcvmessage.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rcvmessage"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rcvmessage/fast">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/rcvmessage.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rcvmessage/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sendmessage">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/sendmessage.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 sendmessage"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sendmessage/fast">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/sendmessage.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 sendmessage/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server1">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/server1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 server1"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server1/fast">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/server1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 server1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="A4Q1client">
 				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/A4Q1client.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
@@ -253,6 +361,42 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="client1">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/client1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 client1"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client1/fast">
+				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/client1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 client1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="writer">
 				<Option output="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/writer.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug"/>
@@ -373,6 +517,18 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/lab1/lab1.c">
 			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/lab10/client1.c">
+			<Option target="client1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/lab10/rcvmessage.c">
+			<Option target="rcvmessage"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/lab10/sendmessage.c">
+			<Option target="sendmessage"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/lab10/server1.c">
+			<Option target="server1"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/lab2/filesize1.c">
 			<Option target="lab2_filesize"/>

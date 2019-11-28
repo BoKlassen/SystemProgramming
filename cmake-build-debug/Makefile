@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named rcvmessage
+
+# Build rule for target.
+rcvmessage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rcvmessage
+.PHONY : rcvmessage
+
+# fast build rule for target.
+rcvmessage/fast:
+	$(MAKE) -f CMakeFiles/rcvmessage.dir/build.make CMakeFiles/rcvmessage.dir/build
+.PHONY : rcvmessage/fast
+
+#=============================================================================
+# Target rules for targets named sendmessage
+
+# Build rule for target.
+sendmessage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sendmessage
+.PHONY : sendmessage
+
+# fast build rule for target.
+sendmessage/fast:
+	$(MAKE) -f CMakeFiles/sendmessage.dir/build.make CMakeFiles/sendmessage.dir/build
+.PHONY : sendmessage/fast
+
+#=============================================================================
+# Target rules for targets named server1
+
+# Build rule for target.
+server1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server1
+.PHONY : server1
+
+# fast build rule for target.
+server1/fast:
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/build
+.PHONY : server1/fast
+
+#=============================================================================
 # Target rules for targets named A4Q1client
 
 # Build rule for target.
@@ -187,6 +226,19 @@ lab2_filesize: cmake_check_build_system
 lab2_filesize/fast:
 	$(MAKE) -f CMakeFiles/lab2_filesize.dir/build.make CMakeFiles/lab2_filesize.dir/build
 .PHONY : lab2_filesize/fast
+
+#=============================================================================
+# Target rules for targets named client1
+
+# Build rule for target.
+client1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client1
+.PHONY : client1
+
+# fast build rule for target.
+client1/fast:
+	$(MAKE) -f CMakeFiles/client1.dir/build.make CMakeFiles/client1.dir/build
+.PHONY : client1/fast
 
 #=============================================================================
 # Target rules for targets named writer
@@ -335,6 +387,114 @@ lab1/lab1.c.s:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab1/lab1.c.s
 .PHONY : lab1/lab1.c.s
 
+lab10/client1.o: lab10/client1.c.o
+
+.PHONY : lab10/client1.o
+
+# target to build an object file
+lab10/client1.c.o:
+	$(MAKE) -f CMakeFiles/client1.dir/build.make CMakeFiles/client1.dir/lab10/client1.c.o
+.PHONY : lab10/client1.c.o
+
+lab10/client1.i: lab10/client1.c.i
+
+.PHONY : lab10/client1.i
+
+# target to preprocess a source file
+lab10/client1.c.i:
+	$(MAKE) -f CMakeFiles/client1.dir/build.make CMakeFiles/client1.dir/lab10/client1.c.i
+.PHONY : lab10/client1.c.i
+
+lab10/client1.s: lab10/client1.c.s
+
+.PHONY : lab10/client1.s
+
+# target to generate assembly for a file
+lab10/client1.c.s:
+	$(MAKE) -f CMakeFiles/client1.dir/build.make CMakeFiles/client1.dir/lab10/client1.c.s
+.PHONY : lab10/client1.c.s
+
+lab10/rcvmessage.o: lab10/rcvmessage.c.o
+
+.PHONY : lab10/rcvmessage.o
+
+# target to build an object file
+lab10/rcvmessage.c.o:
+	$(MAKE) -f CMakeFiles/rcvmessage.dir/build.make CMakeFiles/rcvmessage.dir/lab10/rcvmessage.c.o
+.PHONY : lab10/rcvmessage.c.o
+
+lab10/rcvmessage.i: lab10/rcvmessage.c.i
+
+.PHONY : lab10/rcvmessage.i
+
+# target to preprocess a source file
+lab10/rcvmessage.c.i:
+	$(MAKE) -f CMakeFiles/rcvmessage.dir/build.make CMakeFiles/rcvmessage.dir/lab10/rcvmessage.c.i
+.PHONY : lab10/rcvmessage.c.i
+
+lab10/rcvmessage.s: lab10/rcvmessage.c.s
+
+.PHONY : lab10/rcvmessage.s
+
+# target to generate assembly for a file
+lab10/rcvmessage.c.s:
+	$(MAKE) -f CMakeFiles/rcvmessage.dir/build.make CMakeFiles/rcvmessage.dir/lab10/rcvmessage.c.s
+.PHONY : lab10/rcvmessage.c.s
+
+lab10/sendmessage.o: lab10/sendmessage.c.o
+
+.PHONY : lab10/sendmessage.o
+
+# target to build an object file
+lab10/sendmessage.c.o:
+	$(MAKE) -f CMakeFiles/sendmessage.dir/build.make CMakeFiles/sendmessage.dir/lab10/sendmessage.c.o
+.PHONY : lab10/sendmessage.c.o
+
+lab10/sendmessage.i: lab10/sendmessage.c.i
+
+.PHONY : lab10/sendmessage.i
+
+# target to preprocess a source file
+lab10/sendmessage.c.i:
+	$(MAKE) -f CMakeFiles/sendmessage.dir/build.make CMakeFiles/sendmessage.dir/lab10/sendmessage.c.i
+.PHONY : lab10/sendmessage.c.i
+
+lab10/sendmessage.s: lab10/sendmessage.c.s
+
+.PHONY : lab10/sendmessage.s
+
+# target to generate assembly for a file
+lab10/sendmessage.c.s:
+	$(MAKE) -f CMakeFiles/sendmessage.dir/build.make CMakeFiles/sendmessage.dir/lab10/sendmessage.c.s
+.PHONY : lab10/sendmessage.c.s
+
+lab10/server1.o: lab10/server1.c.o
+
+.PHONY : lab10/server1.o
+
+# target to build an object file
+lab10/server1.c.o:
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/lab10/server1.c.o
+.PHONY : lab10/server1.c.o
+
+lab10/server1.i: lab10/server1.c.i
+
+.PHONY : lab10/server1.i
+
+# target to preprocess a source file
+lab10/server1.c.i:
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/lab10/server1.c.i
+.PHONY : lab10/server1.c.i
+
+lab10/server1.s: lab10/server1.c.s
+
+.PHONY : lab10/server1.s
+
+# target to generate assembly for a file
+lab10/server1.c.s:
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/lab10/server1.c.s
+.PHONY : lab10/server1.c.s
+
 lab2/filesize1.o: lab2/filesize1.c.o
 
 .PHONY : lab2/filesize1.o
@@ -477,6 +637,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... rcvmessage"
+	@echo "... sendmessage"
+	@echo "... server1"
 	@echo "... A4Q1client"
 	@echo "... lab1"
 	@echo "... SystemProgramming"
@@ -484,6 +647,7 @@ help:
 	@echo "... lab6q2"
 	@echo "... A4Q1server"
 	@echo "... lab2_filesize"
+	@echo "... client1"
 	@echo "... writer"
 	@echo "... a4q3"
 	@echo "... lab6q3"
@@ -499,6 +663,18 @@ help:
 	@echo "... lab1/lab1.o"
 	@echo "... lab1/lab1.i"
 	@echo "... lab1/lab1.s"
+	@echo "... lab10/client1.o"
+	@echo "... lab10/client1.i"
+	@echo "... lab10/client1.s"
+	@echo "... lab10/rcvmessage.o"
+	@echo "... lab10/rcvmessage.i"
+	@echo "... lab10/rcvmessage.s"
+	@echo "... lab10/sendmessage.o"
+	@echo "... lab10/sendmessage.i"
+	@echo "... lab10/sendmessage.s"
+	@echo "... lab10/server1.o"
+	@echo "... lab10/server1.i"
+	@echo "... lab10/server1.s"
 	@echo "... lab2/filesize1.o"
 	@echo "... lab2/filesize1.i"
 	@echo "... lab2/filesize1.s"

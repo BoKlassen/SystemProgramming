@@ -45,12 +45,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/rcvmessage.dir/DependInfo.cmake"
+  "CMakeFiles/sendmessage.dir/DependInfo.cmake"
+  "CMakeFiles/server1.dir/DependInfo.cmake"
   "CMakeFiles/A4Q1client.dir/DependInfo.cmake"
   "CMakeFiles/lab1.dir/DependInfo.cmake"
   "CMakeFiles/SystemProgramming.dir/DependInfo.cmake"
   "CMakeFiles/lab6q2.dir/DependInfo.cmake"
   "CMakeFiles/A4Q1server.dir/DependInfo.cmake"
   "CMakeFiles/lab2_filesize.dir/DependInfo.cmake"
+  "CMakeFiles/client1.dir/DependInfo.cmake"
   "CMakeFiles/writer.dir/DependInfo.cmake"
   "CMakeFiles/a4q3.dir/DependInfo.cmake"
   "CMakeFiles/lab6q3.dir/DependInfo.cmake"

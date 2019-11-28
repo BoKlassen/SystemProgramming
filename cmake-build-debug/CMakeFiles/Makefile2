@@ -65,6 +65,117 @@ CMAKE_SOURCE_DIR = /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming
 CMAKE_BINARY_DIR = /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/rcvmessage.dir
+
+# All Build rule for target.
+CMakeFiles/rcvmessage.dir/all:
+	$(MAKE) -f CMakeFiles/rcvmessage.dir/build.make CMakeFiles/rcvmessage.dir/depend
+	$(MAKE) -f CMakeFiles/rcvmessage.dir/build.make CMakeFiles/rcvmessage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target rcvmessage"
+.PHONY : CMakeFiles/rcvmessage.dir/all
+
+# Include target in all.
+all: CMakeFiles/rcvmessage.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rcvmessage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rcvmessage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/rcvmessage.dir/rule
+
+# Convenience name for target.
+rcvmessage: CMakeFiles/rcvmessage.dir/rule
+
+.PHONY : rcvmessage
+
+# clean rule for target.
+CMakeFiles/rcvmessage.dir/clean:
+	$(MAKE) -f CMakeFiles/rcvmessage.dir/build.make CMakeFiles/rcvmessage.dir/clean
+.PHONY : CMakeFiles/rcvmessage.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/rcvmessage.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sendmessage.dir
+
+# All Build rule for target.
+CMakeFiles/sendmessage.dir/all:
+	$(MAKE) -f CMakeFiles/sendmessage.dir/build.make CMakeFiles/sendmessage.dir/depend
+	$(MAKE) -f CMakeFiles/sendmessage.dir/build.make CMakeFiles/sendmessage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target sendmessage"
+.PHONY : CMakeFiles/sendmessage.dir/all
+
+# Include target in all.
+all: CMakeFiles/sendmessage.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sendmessage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sendmessage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sendmessage.dir/rule
+
+# Convenience name for target.
+sendmessage: CMakeFiles/sendmessage.dir/rule
+
+.PHONY : sendmessage
+
+# clean rule for target.
+CMakeFiles/sendmessage.dir/clean:
+	$(MAKE) -f CMakeFiles/sendmessage.dir/build.make CMakeFiles/sendmessage.dir/clean
+.PHONY : CMakeFiles/sendmessage.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sendmessage.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/server1.dir
+
+# All Build rule for target.
+CMakeFiles/server1.dir/all:
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/depend
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target server1"
+.PHONY : CMakeFiles/server1.dir/all
+
+# Include target in all.
+all: CMakeFiles/server1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/server1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/server1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/server1.dir/rule
+
+# Convenience name for target.
+server1: CMakeFiles/server1.dir/rule
+
+.PHONY : server1
+
+# clean rule for target.
+CMakeFiles/server1.dir/clean:
+	$(MAKE) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/clean
+.PHONY : CMakeFiles/server1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/server1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/A4Q1client.dir
 
 # All Build rule for target.
@@ -108,7 +219,7 @@ clean: CMakeFiles/A4Q1client.dir/clean
 CMakeFiles/lab1.dir/all:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/depend
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target lab1"
 .PHONY : CMakeFiles/lab1.dir/all
 
 # Include target in all.
@@ -182,7 +293,7 @@ clean: CMakeFiles/SystemProgramming.dir/clean
 CMakeFiles/lab6q2.dir/all:
 	$(MAKE) -f CMakeFiles/lab6q2.dir/build.make CMakeFiles/lab6q2.dir/depend
 	$(MAKE) -f CMakeFiles/lab6q2.dir/build.make CMakeFiles/lab6q2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target lab6q2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target lab6q2"
 .PHONY : CMakeFiles/lab6q2.dir/all
 
 # Include target in all.
@@ -256,7 +367,7 @@ clean: CMakeFiles/A4Q1server.dir/clean
 CMakeFiles/lab2_filesize.dir/all:
 	$(MAKE) -f CMakeFiles/lab2_filesize.dir/build.make CMakeFiles/lab2_filesize.dir/depend
 	$(MAKE) -f CMakeFiles/lab2_filesize.dir/build.make CMakeFiles/lab2_filesize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target lab2_filesize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target lab2_filesize"
 .PHONY : CMakeFiles/lab2_filesize.dir/all
 
 # Include target in all.
@@ -287,13 +398,50 @@ clean: CMakeFiles/lab2_filesize.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/client1.dir
+
+# All Build rule for target.
+CMakeFiles/client1.dir/all:
+	$(MAKE) -f CMakeFiles/client1.dir/build.make CMakeFiles/client1.dir/depend
+	$(MAKE) -f CMakeFiles/client1.dir/build.make CMakeFiles/client1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target client1"
+.PHONY : CMakeFiles/client1.dir/all
+
+# Include target in all.
+all: CMakeFiles/client1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/client1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/client1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/client1.dir/rule
+
+# Convenience name for target.
+client1: CMakeFiles/client1.dir/rule
+
+.PHONY : client1
+
+# clean rule for target.
+CMakeFiles/client1.dir/clean:
+	$(MAKE) -f CMakeFiles/client1.dir/build.make CMakeFiles/client1.dir/clean
+.PHONY : CMakeFiles/client1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/client1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/writer.dir
 
 # All Build rule for target.
 CMakeFiles/writer.dir/all:
 	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/depend
 	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target writer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target writer"
 .PHONY : CMakeFiles/writer.dir/all
 
 # Include target in all.
@@ -367,7 +515,7 @@ clean: CMakeFiles/a4q3.dir/clean
 CMakeFiles/lab6q3.dir/all:
 	$(MAKE) -f CMakeFiles/lab6q3.dir/build.make CMakeFiles/lab6q3.dir/depend
 	$(MAKE) -f CMakeFiles/lab6q3.dir/build.make CMakeFiles/lab6q3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target lab6q3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Brandon/Documents/GitHub/SystemProgramming/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target lab6q3"
 .PHONY : CMakeFiles/lab6q3.dir/all
 
 # Include target in all.
